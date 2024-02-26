@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    /*height: 100vh;*/
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#game-container {
+    text-align: center;
+}
+
+#word-display {
+    font-size: 360px;
+    margin-bottom: 20px;
+}
+
+#correct {
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(29, 222, 48);
+}
+
+#wrong {
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(242, 3, 3);
+}
+
+#timer {
+    font-size: 48px;
+    font-weight: bold;
+    color: rgb(21, 27, 215);
+}
+
+#restart-btn {
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: right;
+}
+
+#restart-btn:hover {
+    background-color: #00796b;
+}
+
+#start-btn {
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-items: right;
+}
+
+#start-btn:hover {
+    background-color: #00796b;
+}
+
+#game-heading {
+    font-size: 64px;
+    font-weight: bold;
+    color: #333;
+    animation: blink 3s infinite;
+    text-align: center;
+}
+#game-heading2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+@keyframes blink {
+    0%, 49%, 100% {
+        opacity: 1;
+    }
+    50%, 99% {
+        opacity: 0;
+    }
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  #game-history {
+    vertical-align: top;
+}
