@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Word Typing Game</title>
+</head>
+
+<body>
+    
+    <div style="border: 1px solid rgb(226, 223, 223)">
+        <table border="0">
+            <tr>
+                <td>
+                    <div id="game-heading">Word Typing Game</div>
+                    <div id="game-heading2">Subscribe:  <a href="https://www.youtube.com/@LazzyProgrammer?sub_confirmation=1" target="_blank">Lazy Programmer</a> If You Like It :)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <hr />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td class="game-word">
+                                <div id="word-display">---</div>
+                            </td>
+                            <td>
+                                <div class="vl"></div>
+                            </td>
+                            <td>
+                                <div id="correct">Correct: <span id="correct-value">0</span> </div>
+                                <div id="wrong">Wrong: <span id="wrong-value">0</span> </div>
+                                <div id="timer">Time: <span id="timer-value">0</span> s</div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td><button id="restart-btn">Restart</button>&nbsp;&nbsp;<button id="start-btn">Start</button>&nbsp;&nbsp;&#169;Lazy Programmer (Amandeep Singh): <a href="https://www.youtube.com/@LazzyProgrammer?sub_confirmation=1" target="_blank">Lazy Programmer</a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="game-history" style="border: 1px solid rgb(226, 223, 223)">
+        <table border="0">
+            <tr>
+                <td>
+                    <h1>Game History</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul id="history-list"></ul>
+                </td>
+            </tr>
+        </table>
+
+
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
